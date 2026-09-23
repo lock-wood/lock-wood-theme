@@ -1,21 +1,21 @@
-# Lockwood Colour Scheme
+# lock-wood colour scheme
 
 <p align="center">
-  <img src="./assets/logo.png" alt="logo">
+  <img src="./assets/lock-wood.png" width="256" alt="logo">
 </p>
 
-Lockwood is a cross-platform dark colour scheme for Neovim, terminal emulators,
+lock-wood is a cross-platform dark colour scheme for Neovim, terminal emulators,
 web applications, documentation, and developer tooling. It is built around a
 charcoal foundation and a deliberately muted syntax palette: dusty rose, sage
 green, soft ochre, slate blue, mauve, muted cyan, and lavender-grey.
 
-Lockwood is designed to feel familiar immediately and comfortable over time:
+lock-wood is designed to feel familiar immediately and comfortable over time:
 dark enough for focused work, colourful enough to distinguish code, and
 restrained enough to stay out of the way.
 
 ## Motivation
 
-Lockwood began as the colour scheme for a project I’m developing,
+lock-wood began as the colour scheme for a project I’m developing,
 [lockORG](https://lockorg.com). During development, I realised that the palette
 would work just as well beyond the application itself—particularly in the
 terminal, where I spend much of my time using tools such as
@@ -30,7 +30,7 @@ So it happened.
   cohesive, low-fatigue appearance.
 - **Cool-neutral foundation:** blue-grey and violet-grey UI tones support both
   warm and cool syntax colours.
-- **Woodland influence:** sage, ochre, rose, and slate tones give Lockwood an
+- **Woodland influence:** sage, ochre, rose, and slate tones give lock-wood an
   organic character.
 - **Portable by design:** the palette can map cleanly to terminal ANSI colours,
   editor highlights, CSS variables, and application design tokens.
