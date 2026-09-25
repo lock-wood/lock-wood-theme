@@ -1,0 +1,88 @@
+# Theme: lock-wood
+# By: Jakub Gawlik | info@caasi.dev
+# Url: https://github.com/lock-wood
+# A calm, muted dark colour scheme for Neovim, terminals, and the web.
+
+# Main bg
+theme[main_bg]="#1a1c20"
+
+# Main text color
+theme[main_fg]="#B7B2C1"
+
+# Title color for boxes
+theme[title]="#B7B2C1"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#254A65"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#4E505B"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#B7B2C1"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#B6B2C6"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#254A65"
+
+# Cpu box outline color
+theme[cpu_box]="#B6B2C6"
+
+# Memory/disks box outline color
+theme[mem_box]="#B6B2C6"
+
+# Net up/down box outline color
+theme[net_box]="#B6B2C6"
+
+# Processes box outline color
+theme[proc_box]="#B6B2C6"
+
+# Box divider line and small boxes line color
+theme[div_line]="#B6B2C6"
+
+# Temperature graph colors
+theme[temp_start]="#759C75"
+theme[temp_mid]="#AA9980"
+theme[temp_end]="#C08281"
+
+# CPU graph colors
+theme[cpu_start]="#759C75"
+theme[cpu_mid]="#AA9980"
+theme[cpu_end]="#C08281"
+
+# Mem/Disk free meter
+theme[free_end]="#759C75"
+theme[free_mid]="#AA9980"
+theme[free_start]="#C08281"
+
+# Mem/Disk cached meter
+theme[cached_start]="#759C75"
+theme[cached_mid]="#AA9980"
+theme[cached_end]="#C08281"
+
+# Mem/Disk available meter
+theme[available_start]="#C08281"
+theme[available_mid]="#AA9980"
+theme[available_end]="#759C75"
+
+# Mem/Disk used meter
+theme[used_start]="#759C75"
+theme[used_mid]="#AA9980"
+theme[used_end]="#C08281"
+
+# Download graph colors
+theme[download_start]="#759C75"
+theme[download_mid]="#AA9980"
+theme[download_end]="#C08281"
+
+# Upload graph colors
+theme[upload_start]="#759C75"
+theme[upload_mid]="#AA9980"
+theme[upload_end]="#C08281"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#254A65"
+theme[process_mid]="#AE85AB"
+theme[process_end]="#AF98C1"

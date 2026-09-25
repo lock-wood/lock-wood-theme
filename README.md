@@ -77,3 +77,12 @@ these roles:
 | Keywords and special syntax                   | `magenta-dark` or `magenta-bright` |
 | Types, tags, operators, secondary information | `cyan-dark` or `cyan-bright`       |
 | Primary foreground                            | `white-dark` or `white-bright`     |
+
+## Ports
+
+1. Applications
+   - [btop](./applications/btop/README.md)
+   - [neovim](https://github.com/lock-wood/neovim)
+
+2. Terminals
+   - [kitty](./terminals/kitty/README.md)
