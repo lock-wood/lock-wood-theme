@@ -1,0 +1,73 @@
+/*
+ * Theme: lock-wood
+ * By: Jakub Gawlik | info@caasi.dev
+ * Url: https://github.com/lock-wood
+ * A calm, muted dark colour scheme for Neovim, terminals, and the web.
+ */
+
+:root {
+  /* Palette */
+  --lw-bg-primary: #1a1c20;
+  --lw-bg-secondary: #242832;
+  --lw-text-border: #484453;
+  --lw-black-dark: #4e505b;
+  --lw-red-dark: #c08281;
+  --lw-green-dark: #759c75;
+  --lw-yellow-dark: #aa9980;
+  --lw-blue-dark: #254a65;
+  --lw-magenta-dark: #ae85ab;
+  --lw-cyan-dark: #699b98;
+  --lw-white-dark: #b6b2c6;
+  --lw-black-bright: #504c5e;
+  --lw-red-bright: #b48787;
+  --lw-green-bright: #699f68;
+  --lw-yellow-bright: #9b9361;
+  --lw-blue-bright: #587b98;
+  --lw-magenta-bright: #af98c1;
+  --lw-cyan-bright: #6b9b97;
+  --lw-white-bright: #b7b2c1;
+
+  /* RGB channels — for use with alpha, e.g. rgb(var(--lw-red-dark-rgb) / 0.5) */
+  --lw-bg-primary-rgb: 26 28 32;
+  --lw-bg-secondary-rgb: 36 40 50;
+  --lw-text-border-rgb: 72 68 83;
+  --lw-black-dark-rgb: 78 80 91;
+  --lw-red-dark-rgb: 192 130 129;
+  --lw-green-dark-rgb: 117 156 117;
+  --lw-yellow-dark-rgb: 170 153 128;
+  --lw-blue-dark-rgb: 37 74 101;
+  --lw-magenta-dark-rgb: 174 133 171;
+  --lw-cyan-dark-rgb: 105 155 152;
+  --lw-white-dark-rgb: 182 178 198;
+  --lw-black-bright-rgb: 80 76 94;
+  --lw-red-bright-rgb: 180 135 135;
+  --lw-green-bright-rgb: 105 159 104;
+  --lw-yellow-bright-rgb: 155 147 97;
+  --lw-blue-bright-rgb: 88 123 152;
+  --lw-magenta-bright-rgb: 175 152 193;
+  --lw-cyan-bright-rgb: 107 155 151;
+  --lw-white-bright-rgb: 183 178 193;
+
+  /* Semantic aliases — every palette colour has a role */
+  --lw-background: var(--lw-bg-primary);
+  --lw-surface: var(--lw-bg-secondary);
+  --lw-border: var(--lw-text-border);
+  --lw-comment: var(--lw-black-dark);
+  --lw-muted: var(--lw-black-bright);
+  --lw-error: var(--lw-red-dark);
+  --lw-error-bright: var(--lw-red-bright);
+  --lw-success: var(--lw-green-dark);
+  --lw-success-bright: var(--lw-green-bright);
+  --lw-warning: var(--lw-yellow-dark);
+  --lw-warning-bright: var(--lw-yellow-bright);
+  --lw-selection: var(--lw-blue-dark);
+  --lw-info: var(--lw-blue-bright);
+  --lw-link: var(--lw-blue-bright);
+  --lw-keyword: var(--lw-magenta-dark);
+  --lw-keyword-bright: var(--lw-magenta-bright);
+  --lw-type: var(--lw-cyan-dark);
+  --lw-type-bright: var(--lw-cyan-bright);
+  --lw-accent: var(--lw-cyan-dark);
+  --lw-foreground: var(--lw-white-dark);
+  --lw-foreground-bright: var(--lw-white-bright);
+}

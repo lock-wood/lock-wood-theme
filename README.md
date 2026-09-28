@@ -86,3 +86,12 @@ these roles:
 
 2. Terminals
    - [kitty](./terminals/kitty/README.md)
+
+3. Web
+   - [CSS](./web/README.md)
+   - [Tailwind](./web/README.md)
+
+## Implementations
+
+- [lockORG](https://lockorg.com)
+- [offline-tools](https://github.com/LiamThursfield/offline-tools)

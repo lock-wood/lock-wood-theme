@@ -1,0 +1,96 @@
+// Theme: lock-wood
+// By: Jakub Gawlik | info@caasi.dev
+// Url: https://github.com/lock-wood
+// A calm, muted dark colour scheme for Neovim, terminals, and the web.
+
+// Palette
+$bg-primary: #1a1c20;
+$bg-secondary: #242832;
+$text-border: #484453;
+$black-dark: #4e505b;
+$red-dark: #c08281;
+$green-dark: #759c75;
+$yellow-dark: #aa9980;
+$blue-dark: #254a65;
+$magenta-dark: #ae85ab;
+$cyan-dark: #699b98;
+$white-dark: #b6b2c6;
+$black-bright: #504c5e;
+$red-bright: #b48787;
+$green-bright: #699f68;
+$yellow-bright: #9b9361;
+$blue-bright: #587b98;
+$magenta-bright: #af98c1;
+$cyan-bright: #6b9b97;
+$white-bright: #b7b2c1;
+
+// Semantic aliases — every palette colour has a role
+$background: $bg-primary;
+$surface: $bg-secondary;
+$border: $text-border;
+$comment: $black-dark;
+$muted: $black-bright;
+$error: $red-dark;
+$error-bright: $red-bright;
+$success: $green-dark;
+$success-bright: $green-bright;
+$warning: $yellow-dark;
+$warning-bright: $yellow-bright;
+$selection: $blue-dark;
+$info: $blue-bright;
+$link: $blue-bright;
+$keyword: $magenta-dark;
+$keyword-bright: $magenta-bright;
+$type: $cyan-dark;
+$type-bright: $cyan-bright;
+$accent: $cyan-dark;
+$foreground: $white-dark;
+$foreground-bright: $white-bright;
+
+// Full palette as a map, for iteration or map.get lookups
+$palette: (
+  "bg-primary": $bg-primary,
+  "bg-secondary": $bg-secondary,
+  "text-border": $text-border,
+  "black-dark": $black-dark,
+  "red-dark": $red-dark,
+  "green-dark": $green-dark,
+  "yellow-dark": $yellow-dark,
+  "blue-dark": $blue-dark,
+  "magenta-dark": $magenta-dark,
+  "cyan-dark": $cyan-dark,
+  "white-dark": $white-dark,
+  "black-bright": $black-bright,
+  "red-bright": $red-bright,
+  "green-bright": $green-bright,
+  "yellow-bright": $yellow-bright,
+  "blue-bright": $blue-bright,
+  "magenta-bright": $magenta-bright,
+  "cyan-bright": $cyan-bright,
+  "white-bright": $white-bright,
+);
+
+// Semantic aliases as a map
+$semantic: (
+  "background": $background,
+  "surface": $surface,
+  "border": $border,
+  "comment": $comment,
+  "muted": $muted,
+  "error": $error,
+  "error-bright": $error-bright,
+  "success": $success,
+  "success-bright": $success-bright,
+  "warning": $warning,
+  "warning-bright": $warning-bright,
+  "selection": $selection,
+  "info": $info,
+  "link": $link,
+  "keyword": $keyword,
+  "keyword-bright": $keyword-bright,
+  "type": $type,
+  "type-bright": $type-bright,
+  "accent": $accent,
+  "foreground": $foreground,
+  "foreground-bright": $foreground-bright,
+);

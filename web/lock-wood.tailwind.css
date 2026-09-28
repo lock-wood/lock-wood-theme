@@ -1,0 +1,51 @@
+/*
+ * Theme: lock-wood
+ * By: Jakub Gawlik | info@caasi.dev
+ * Url: https://github.com/lock-wood
+ * A calm, muted dark colour scheme for Neovim, terminals, and the web.
+ */
+
+@theme {
+  --color-lw-bg-primary: #1a1c20;
+  --color-lw-bg-secondary: #242832;
+  --color-lw-text-border: #484453;
+  --color-lw-black-dark: #4e505b;
+  --color-lw-red-dark: #c08281;
+  --color-lw-green-dark: #759c75;
+  --color-lw-yellow-dark: #aa9980;
+  --color-lw-blue-dark: #254a65;
+  --color-lw-magenta-dark: #ae85ab;
+  --color-lw-cyan-dark: #699b98;
+  --color-lw-white-dark: #b6b2c6;
+  --color-lw-black-bright: #504c5e;
+  --color-lw-red-bright: #b48787;
+  --color-lw-green-bright: #699f68;
+  --color-lw-yellow-bright: #9b9361;
+  --color-lw-blue-bright: #587b98;
+  --color-lw-magenta-bright: #af98c1;
+  --color-lw-cyan-bright: #6b9b97;
+  --color-lw-white-bright: #b7b2c1;
+
+  /* Semantic aliases — every palette colour has a role */
+  --color-lw-background: #1a1c20;
+  --color-lw-surface: #242832;
+  --color-lw-border: #484453;
+  --color-lw-comment: #4e505b;
+  --color-lw-muted: #504c5e;
+  --color-lw-error: #c08281;
+  --color-lw-error-bright: #b48787;
+  --color-lw-success: #759c75;
+  --color-lw-success-bright: #699f68;
+  --color-lw-warning: #aa9980;
+  --color-lw-warning-bright: #9b9361;
+  --color-lw-selection: #254a65;
+  --color-lw-info: #587b98;
+  --color-lw-link: #587b98;
+  --color-lw-keyword: #ae85ab;
+  --color-lw-keyword-bright: #af98c1;
+  --color-lw-type: #699b98;
+  --color-lw-type-bright: #6b9b97;
+  --color-lw-accent: #699b98;
+  --color-lw-foreground: #b6b2c6;
+  --color-lw-foreground-bright: #b7b2c1;
+}
