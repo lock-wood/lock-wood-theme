@@ -82,6 +82,7 @@ these roles:
 
 1. Applications
    - [btop](./applications/btop/README.md)
+   - [herdr](./applications/herdr/README.md)
    - [neovim](https://github.com/lock-wood/neovim)
 
 2. Terminals
