@@ -86,6 +86,7 @@ these roles:
    - [neovim](https://github.com/lock-wood/neovim)
 
 2. Terminals
+   - [alacritty](./terminals/alacritty/README.md)
    - [kitty](./terminals/kitty/README.md)
 
 3. Web

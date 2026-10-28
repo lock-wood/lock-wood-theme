@@ -1,0 +1,56 @@
+# Theme: lock-wood
+# By: Jakub Gawlik | info@caasi.dev
+# Url: https://github.com/lock-wood
+# A calm, muted dark colour scheme for Neovim, terminals, and the web.
+
+# Basic colours
+[colors.primary]
+foreground = "#b6b2c6"
+background = "#1a1c20"
+
+[colors.cursor]
+text = "#1a1c20"
+cursor = "#b6b2c6"
+
+[colors.selection]
+text = "#b6b2c6"
+background = "#242832"
+
+# ANSI colours
+[colors.normal]
+black = "#4e505b"
+red = "#c08281"
+green = "#759c75"
+yellow = "#aa9980"
+blue = "#254a65"
+magenta = "#ae85ab"
+cyan = "#699b98"
+white = "#b6b2c6"
+
+# Bright colours
+[colors.bright]
+black = "#504c5e"
+red = "#b48787"
+green = "#699f68"
+yellow = "#9b9361"
+blue = "#587b98"
+magenta = "#af98c1"
+cyan = "#6b9b97"
+white = "#b7b2c1"
+
+# Optional: search matches, hints, etc.
+[colors.search.matches]
+foreground = "#1a1c20"
+background = "#ae85ab"
+
+[colors.search.focused_match]
+foreground = "#1a1c20"
+background = "#6b9b97"
+
+[colors.hints.start]
+foreground = "#1a1c20"
+background = "#aa9980"
+
+[colors.hints.end]
+foreground = "#1a1c20"
+background = "#6b9b97"
